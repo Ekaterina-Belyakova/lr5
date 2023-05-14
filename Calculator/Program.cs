@@ -3,13 +3,13 @@ double b;
 double total;
 char oper;
 
-Console.WriteLine("Введите первое число:");
+Console.WriteLine("Введите первое число (a):");
 a = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("Введите оператор:");
 oper = Convert.ToChar(Console.ReadLine());
 
-Console.WriteLine("Введите второе число:");
+Console.WriteLine("Введите второе число (b):");
 b = Convert.ToDouble(Console.ReadLine());
 
 if (oper == '+')
